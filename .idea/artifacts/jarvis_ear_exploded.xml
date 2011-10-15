@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="jarvis:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jarvis_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jarvis/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="jarvis:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
